@@ -1,0 +1,49 @@
+<Ui
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+xsi:schemaLocation="http://www.blizzard.com/wow/ui/..\FrameXML\UI.xsd"
+xmlns="http://www.blizzard.com/wow/ui/">
+
+	<Script file="Localization.lua" />	
+<Frame name="SuperTreatmentFrame" parent="UIParent" movable="true" frameStrata="DIALOG" enableMouse="true" inherits="BackdropTemplate">
+	<Size>
+		<AbsDimension x="75" y="100" />
+	</Size>
+	<Anchors>
+		<Anchor point="CENTER" relativePoint="CENTER">
+			<Offset x="0" y="-55" />
+		</Anchor>
+	</Anchors>
+	<KeyValues>
+		<KeyValue key="backdropInfo" value="BACKDROP_SUPERTREATMENT_TOOLTIP" type="global" />
+	</KeyValues>
+	<HitRectInsets left="3" right="3" top="3" bottom="3" />
+	<Frames>
+	</Frames>
+	<Scripts>	
+		<OnEvent>SuperTreatment_OnEvent(event);</OnEvent>
+		<OnUpdate>SuperTreatment_OnUpdate(arg1);</OnUpdate>
+		<OnMouseDown>SuperTreatment_OnMouseDown();</OnMouseDown>
+		<OnMouseUp>SuperTreatment_OnMouseUp();</OnMouseUp>
+	</Scripts>
+</Frame>
+	<Script file="Library\FAIAP.lua" />
+	<Script file="Library\Frame.lua" />
+	<Script file="Locales\zhCN\api_zhCN.lua" />
+	<Script file="Locales\zhCN\Localization_zhCN.lua" />
+	<Script file="Locales\zhCN\UnitBuffListMenu_zhCN.lua" />
+	<Script file="Locales\zhCN\RightMenu_zhCN.lua" />
+	<Script file="Locales\zhCN\SetBuffMenu_zhCN.lua" />
+	<Script file="Locales\zhCN\CustomizeTarget_zhCN.lua" />
+	<Script file="Locales\zhCN\FunctionListMenu_zhCN.lua" />
+	<Script file="Locales\zhCN\SetApiParameterMenu_zhCN.lua" />
+	<Script file="Locales\zhCN\SetIsSpellMenu_zhCN.lua" />
+	<Script file="Locales\zhCN\RangeCheckAngleMenu_zhCN.lua" />
+	<Script file="Locales\zhCN\SuperTreatment_zhCN.lua" />
+	<Script file="Locales\zhCN\runspell_zhCN.lua" />	
+	<Script file="import.lua" />
+	<Script file="ScriptEdit\Locales\zhCN.lua" />
+	<Script file="ScriptEdit\Main.lua" />
+	<Script file="ScriptEdit\Script.lua" />
+	<Script file="versioncheck.lua" />
+</Ui>		

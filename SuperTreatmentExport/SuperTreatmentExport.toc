@@ -1,0 +1,11 @@
+﻿## Interface: 110100, 11505, 30403, 40401
+## Title: |cFF8000FF GC Discipline priest 02
+## Notes: |cffffff00 晋升堡垒导出助手  |cffffffffVersion:  11.200.018|r
+## Title-zhCN: |cFF8000FF 晋升堡垒导出助手|r
+## Notes-zhCN: 晋升堡垒导出助手 |cffffffffVersion: 11.200.018|r
+## Dependencies: GC
+## Version: 11.200.018
+## DefaultState: Enabled
+## LoadOnDemand: 0
+## SavedVariablesPerCharacter: SuperTreatmentExport_Mark,SuperTreatmentExport_Dbf
+import.lua
