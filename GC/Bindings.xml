@@ -1,0 +1,18 @@
+﻿<Bindings>
+	<Binding name="RUNONCE" runOnUp="true" category="BINDING_HEADER_GC">
+		MagicCastAddon.Environment:RunScheme();
+	</Binding>
+	<Binding name="RUNSTART" runOnUp="true" category="BINDING_HEADER_GC">
+		if (keystate == "down") then
+			MagicCastAddon.Environment:Start(nil,true);
+		else
+			MagicCastAddon.Environment:Stop(true);
+		end
+	</Binding>
+	<Binding name="START" category="BINDING_HEADER_GC">
+		MagicCastAddon.Environment:Start();
+	</Binding>
+	<Binding name="STOP" category="BINDING_HEADER_GC">
+		MagicCastAddon.Environment:Stop();
+	</Binding>
+</Bindings>

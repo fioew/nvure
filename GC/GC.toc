@@ -1,0 +1,10 @@
+﻿## Interface: 110100, 11505, 30403, 40401
+## Title: |cFF8000FF GC Discipline priest 00
+## Notes: |cffffff00 晋升堡垒 |cffffffff Version: 11.200.018|r
+## Title-zhCN: |cFF8000FF 晋升堡垒 |cffffff00之|cFF8000FF|r
+## Notes-zhCN: 晋升堡垒|cffffffffVersion: 11.200.018|r
+## Version: 11.200.018
+## DefaultState: Enabled
+## LoadOnDemand: 0
+## SavedVariables: sdm_version,sdm_listFilters,sdm_iconSize,sdm_mainContents,sdm_macros,wowam_config,wowam_config_icon,MagicCastDB
+wowam.xml
